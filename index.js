@@ -15,3 +15,11 @@ function nowServing(katzDeliLine){
     return `Currently serving ${name}.`
   }
 }
+
+
+function currentLine(katzDeliLine){
+ String line = "The line is currently: "
+ 
+ 
+  
+}
