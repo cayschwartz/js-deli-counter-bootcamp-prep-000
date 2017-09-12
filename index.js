@@ -18,8 +18,18 @@ function nowServing(katzDeliLine){
 
 
 function currentLine(katzDeliLine){
- String line = "The line is currently: "
+  if(katzDeliLine.length==0){
+    return "There line is currently empty."
+  }
+  else{
+    String line = "The line is currently: "
+    for(var i=0; i<katzDeliLine.length; i++){
+      line+=`${i+1}. ${katzDeliLine[i]}, `
+    }
+    return line
+
+  }
+
  
- 
-  
+
 }
